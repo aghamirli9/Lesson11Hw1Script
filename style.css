@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "name";
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+h1{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: "name";
+    color: orange;
+}
+
+span{
+    font-size: 20px;
+}
+
+.all-items{
+    width: 1315px;
+    height: 820px;
+    margin: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: flex-start;
+    /* border: 5px solid black; */
+}
+
+.boxes{
+    width: 200px;
+    height: 390px;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 5px;
+}
+
+.image :nth-child(1){
+    width: 196.5px;
+    height: 290px;
+}
+
+.brand{
+    font-weight: 600;
+    font-family: "name";
+}
+
+.brand1 :nth-child(2){
+    width: 20px;
+    height: 20px;
+}
+
+.brand1{
+    display: flex;
+    padding-left: 5px;
+    gap: 3px;
+}
+
+
+.name{
+    padding-left: 5px;
+    font-family: "name";
+    font-size: 20px;
+}
+
+.price{
+    color: orangered;
+    font-size: 15px;
+}
